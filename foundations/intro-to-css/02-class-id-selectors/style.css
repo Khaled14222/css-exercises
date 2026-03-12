@@ -1,1 +1,18 @@
 /* Add CSS Styling */
+.Red{
+  background-color: rgb(255, 101, 101);
+  font-family: Verdana, "DejaVu Sans","sans-serif";
+  font-size: 24px;
+}
+#Blu{
+  color: rgb(0, 50, 214);
+  font-size: 36px;
+}
+.Big{
+  font-size: 30px;
+}
+#Green{
+  font-weight: bold;
+  font-size: 30px;
+  background-color: rgb(159, 216, 159);
+}
