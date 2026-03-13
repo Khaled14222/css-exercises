@@ -1,1 +1,15 @@
 /* Add CSS Styling */
+.bl,
+.yel{
+font-size: 28px;
+font-family: Helvetica, "Times New Roman","sans-serif";
+cursor: pointer;
+}
+.bl{
+  background-color: black;
+  color: white;
+}
+.yel{
+  background-color: yellow;
+  color: black;
+}
