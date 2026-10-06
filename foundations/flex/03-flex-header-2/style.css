@@ -15,7 +15,6 @@ body {
   display: flex;
   align-items: center;
   padding: 12px;
-  flex-grow: 1;
   justify-content: space-between;
 }
 
@@ -46,7 +45,6 @@ a {
   /* this removes the line under our links */
   text-decoration: none;
   color: rebeccapurple;
-  
 }
 
 ul {
@@ -55,14 +53,12 @@ ul {
 .Left-buttons{
   display: flex;
   align-items: center;
-  justify-content: flex-start;
 }
 .links, .Right-buttons{
   display: flex;
 }
 .Left-buttons, .Right-buttons{
   margin: 16px;
-  padding: 8px;
 }
 a, .profile-image{
   margin: 16px;
