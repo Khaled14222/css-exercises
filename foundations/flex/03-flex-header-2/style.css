@@ -16,6 +16,7 @@ body {
   align-items: center;
   padding: 12px;
   justify-content: space-between;
+  gap: 8px;
 }
 
 .profile-image {
@@ -38,7 +39,7 @@ button {
   border-radius: 8px;
   background: rebeccapurple;
   color: white;
-  padding: 8px 24px;
+  padding: 8px 36px;
 }
 
 a {
@@ -49,6 +50,8 @@ a {
 
 ul {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 .Left-buttons{
   display: flex;
@@ -56,13 +59,13 @@ ul {
 }
 .links, .Right-buttons{
   display: flex;
+  align-items: center;
+  gap: 16px;
 }
 .Left-buttons, .Right-buttons{
-  margin: 16px;
+  gap: 16px;
 }
-a, .profile-image{
-  margin: 16px;
-}
+
 div, .links{
    border: 1px solid red;
 }
