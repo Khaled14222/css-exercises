@@ -16,6 +16,7 @@ body {
   align-items: center;
   padding: 12px;
   flex-grow: 1;
+  justify-content: space-between;
 }
 
 .profile-image {
@@ -52,12 +53,12 @@ ul {
   margin: 0px;
   padding: 0px;
 }
-
+.Left-buttons{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
 .links, .Right-buttons{
   display: flex;
   justify-content: flex-start;
-  
-}
-.Right-buttons{
-  justify-content: flex-end;
 }
