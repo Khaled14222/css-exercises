@@ -24,6 +24,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 8px 16px;
 }
 
 input {
@@ -35,11 +36,15 @@ input {
 
 
 .content{
+  margin-top: 196px;
   border: red 1px solid;
   display: flex;
+  flex-direction: column;
+  gap: 16px;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  flex-grow: 1;
 }
 
 .logo, .input, .buttons{
@@ -49,7 +54,9 @@ input {
   width: 100%;
   border: red 1px solid;
 }
-
+.buttons{
+  gap: 12px;
+}
 
 .header, .footer{
   display: flex;
@@ -64,6 +71,12 @@ input {
   bottom: 0px;
   left: 0;
   right: 0;
+}
+.header{
+  position: fixed;
+  top: 0px;
+  left: 0;
+  right: 0;  
 }
 
 .left-links, .right-links{
