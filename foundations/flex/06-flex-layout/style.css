@@ -40,6 +40,7 @@ input {
   justify-content: center;
   flex-wrap: wrap;
 }
+
 .logo{
   display: flex;
   justify-content: center;
@@ -51,16 +52,23 @@ input {
 
 .header, .footer{
   display: flex;
-  flex-grow: auto;
+  flex-grow: 1;
   align-items: center;
   justify-content: space-between;
 }
 
 .footer{
   background-color: #eeeeee;
+  position: fixed;
+  bottom: 0px;
+  left: 0;
+  right: 0;
 }
 
 .left-links, .right-links{
   display: flex;
-  gap: 8px;
+  gap: 16px;
+}
+.right-links{
+  margin-right: 40px;
 }
