@@ -23,6 +23,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
+  padding: 20px;
 }
 
 .icon {
@@ -36,6 +37,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  border: red 1px solid;
+  flex-shrink: 0;
 }
 
 .close-button {
@@ -75,4 +78,29 @@ button.cancel {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-grow: 1;
+}
+
+.buttom, .but{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.header{
+  font-weight: bold;
+  font-size: 22px;
+}
+
+
+.content {
+  flex: 1;
+}
+
+.bots {
+  display: flex;
+  flex-grow: 1;
+  gap: 8px;
+  margin-top: 10px;
 }
