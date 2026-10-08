@@ -12,6 +12,7 @@ img {
   font-weight: 900;
   display: flex;
   justify-content: center;
+  margin: 32px;
 }
 
 .Main{
@@ -23,15 +24,16 @@ img {
 .text{
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
+
 }
 .picture{
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   width: 200px;
+  text-align: center;
 }
 
 div{
-    border: 1px solid red;
+    /*border: 1px solid red;
 }
