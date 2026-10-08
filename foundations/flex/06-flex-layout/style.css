@@ -34,14 +34,32 @@ input {
 }
 
 
+.content{
+  border: red 1px solid;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  border: red 1px solid;
+}
 
-.footer{
+
+.header, .footer{
   display: flex;
   flex-grow: auto;
   align-items: center;
   justify-content: space-between;
+}
+
+.footer{
   background-color: #eeeeee;
 }
+
 .left-links, .right-links{
   display: flex;
   gap: 8px;
