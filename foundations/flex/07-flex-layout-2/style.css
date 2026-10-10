@@ -7,18 +7,33 @@ body {
 .main{
   display: flex;
   flex-direction: column;
+  flex-grow: 1;
+  min-height: 100vh;
+}
+
+.middle{
+  display: flex;
+  flex-grow: 1;
 }
 
 .header {
   height: 72px;
   background: darkmagenta;
+  display: flex;
   color: white;
+  font-weight: bold;
+  align-items: center;
+  padding-left: 16px;
+  font-size: 36px;
 }
 
 .footer {
   height: 72px;
   background: #eee;
   color: darkmagenta;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .sidebar {
